@@ -1,0 +1,34 @@
+.product{
+	display:flex;
+	fLex-wrap:wrap;
+	margin-top:10px;/*分類與top之間隔.*/
+	background-color:red;
+}
+.product .itemBox{
+	background-color:#D990F5;
+	position:relative;
+	width:300px;
+	height:500px;
+	margin:5px;
+	left:100px;
+	margin-top:10px;/*照片間之間隔.*/
+}
+.product .itemBox img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:99%;
+	height:65%;
+	box-shadow: 2px 5px 20px black;
+	padding: 10px;
+	cursor: pointer;
+	margin-bottom: 3px;
+	background-color:blue;
+}
+.product .itemBox h3{
+	margin-top:327px;
+	text-align:center;
+}
+.product .itemBox p{
+	margin-left:25px;
+}
